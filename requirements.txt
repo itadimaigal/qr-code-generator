@@ -1,0 +1,4 @@
+# qrgen.py and cli.py need nothing beyond the Python standard library.
+flask>=3.0            # only for app.py (the web page)
+opencv-python>=4.8    # optional: lets the tests decode the codes they make
+numpy>=1.24           # optional: used with opencv in the tests
